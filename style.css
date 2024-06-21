@@ -1,0 +1,249 @@
+/*
+Theme Name:		 chicdressing
+Theme URI:		 http://childtheme-generator.com/
+Description:	 chicdressing is a child theme of Ashe, created by ChildTheme-Generator.com
+Author:			 Chic Dressing
+Author URI:		 http://childtheme-generator.com/
+Template:		 ashe
+Version:		 1.0.0
+Text Domain:	 chicdressing
+*/
+
+:root {
+    --color-gold-contrast: #986E2F;
+    --color-fond-titre: rgba(152, 110, 47, 0.1);
+    --color-logo-hover: #e90000;
+  }
+
+/* On charge les polices google font utilisées dans le site */
+
+
+@font-face {
+    font-family: 'Kalam';
+    src: url('fonts/Kalam-Light.woff2') format("woff2");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 300;
+  }
+
+  @font-face {
+    font-family: 'Kalam';
+    src: url('fonts/Kalam-Regular.woff2') format("woff2");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: 'Kalam';
+    src: url('fonts/Kalam-Bold.woff2') format("woff2");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: 'Rokkit';
+    src: url('fonts/Rokkitt-Light.woff2') format("woff2");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 200;
+  } 
+
+body .header-logo a{
+    color: white;
+    text-shadow: 2px 3px 5px #d0527a;
+    transform: rotate(-9deg);
+}
+.text-center{
+    text-align:center;
+}
+
+.chic-bouton{
+    color: #ffffff;
+    background-color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 12px;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 14px;
+}
+
+#featured-slider{
+    margin-bottom:30px;
+}
+#chic-products{
+    padding:0 40px;
+}
+.chic-title{
+    font-family: 'Kalam';
+    font-size: 52px;
+    text-decoration: inherit;
+    text-transform: uppercase;
+    transform: rotate(-2deg);
+    margin:30px 40px;
+    text-align:center;
+    color: #9d4c64 !important;
+    line-height: 48px;
+}
+#chic-products ul.products li.product{
+    background: #f6f6f6;
+    padding-bottom: 20px;
+}
+
+/* Amélioration de la visibilité graphique du site */
+
+body .page-content, .page-content select, .page-content input, .page-content textarea, .page-content .post-author a, .page-content .ashe-widget a, .page-content .comment-author {
+    color:#333333;
+    font-size: 16px;
+}
+
+ul#main-menu li#menu-item-976 a
+{
+    color: black;
+}
+
+ul#main-menu li#menu-item-990 a
+{
+    color: black;
+}
+
+ul#main-menu li#menu-item-975 a 
+{
+    color: black;
+}
+
+ul#main-menu li#menu-item-977 a
+{
+    color: black;
+}
+
+
+
+ul#main-menu li#menu-item-976 a:hover 
+{
+    color: var(--color-gold-contrast);
+}
+
+ul#main-menu li#menu-item-990 a:hover 
+{
+    color: var(--color-gold-contrast);
+}
+
+ul#main-menu li#menu-item-975 a:hover 
+{
+    color: var(--color-gold-contrast);
+}
+
+ul#main-menu li#menu-item-977 a:hover 
+{
+    color: var(--color-gold-contrast);
+}
+
+p.woocommerce-result-count 
+{
+    color: black!important;
+}
+
+body h1 {
+background-color: var(--color-fond-titre);
+}
+
+.header-logo a
+{
+  color: #fff;
+  text-shadow: 2px 3px 5px #d0527a;
+  transform: rotate(-9deg);
+}
+
+.read-more a {
+    color: var(--color-gold-contrast)!important;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.read-more a:hover {
+    color: var(--color-gold-contrast)!important;
+    font-weight: 700;
+}
+
+.page-content .woocommerce ul.products li.product .button 
+{
+    color: var(--color-gold-contrast)!important;
+}
+
+.post-categories a {
+    color: var(--color-gold-contrast)!important;
+    font-size: 15px!important;
+}
+
+.post-categories {
+    color: var(--color-gold-contrast)!important;
+    font-size: 15px!important;
+}
+
+.post-date {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--color-gold-contrast)!important;
+}
+
+.rpwwt-post-categories {
+    color: black!important;
+}
+
+.rpwwt-post-title {
+    color: var(--color-gold-contrast)!important;
+    font-weight: 600;
+}
+
+.rpwwt-post-title {
+    color: var(--color-gold-contrast)!important;
+    font-weight: 600;
+}
+
+.rpwwt-post-title:hover {
+    color: var(--color-gold-contrast)!important;
+    font-weight: 650;
+}
+
+.post-title a{
+    color:black!important;
+    background-color: var(--color-fond-titre)!important;
+}
+
+.post-title a:hover{
+    color:black!important;
+    background-color: var(--color-fond-titre)!important;
+}
+
+.woocommerce .page-content ul.products li.product .button{
+    color: var(--color-gold-contrast);
+}
+
+.page-content select {
+    color:black!important;
+}
+
+.post-content a{
+color: black!important;
+}
+
+.post-content a:hover
+{
+color:black!important;
+}
+
+span .swp_share, .iconFiller {
+    color: white!important;  
+}
+
+body .header-logo a:hover
+{
+  color: var(--color-logo-hover);
+  text-shadow: 2px 3px 3px #480117;
+  transform: rotate(-9deg);
+}
